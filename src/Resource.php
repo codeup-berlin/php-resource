@@ -1,5 +1,9 @@
 <?php
 
+namespace Codeup\Resource;
+
+use UnexpectedValueException;
+
 /**
  * @param $value
  * @param string $expectedResourceType

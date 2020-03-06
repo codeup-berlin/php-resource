@@ -1,5 +1,7 @@
 <?php
 
+namespace Codeup\Resource;
+
 /**
  * @see https://www.php.net/manual/de/resource.php
  */
