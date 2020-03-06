@@ -1,0 +1,23 @@
+{
+  "name": "codeup/php-resource",
+  "type": "library",
+  "description": "Resource handling tools for PHP",
+  "homepage": "https://github.com/codeup-berlin/php-resource",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Codeup\\Resource\\": "src"
+    },
+    "files": [
+      "src/Resource.php"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.0-dev"
+    }
+  },
+  "require": {
+    "php": "^7.0"
+  }
+}
