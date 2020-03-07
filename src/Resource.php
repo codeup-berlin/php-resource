@@ -17,9 +17,10 @@ function is_resource_of_type($value, string $expectedResourceType): bool
 /**
  * @param $value
  * @param string $expectedResourceType
+ * @return void
  * @throws \UnexpectedValueException
  */
-function assert_resource_of_type($value, string $expectedResourceType): void
+function assert_resource_of_type($value, string $expectedResourceType)
 {
     if (!is_resource($value)) {
         throw new UnexpectedValueException('Not a resource.');
