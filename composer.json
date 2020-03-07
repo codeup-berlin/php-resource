@@ -9,7 +9,8 @@
       "Codeup\\Resource\\": "src"
     },
     "files": [
-      "src/Resource.php"
+      "src/Resource.php",
+      "src/ResourceType.php"
     ]
   },
   "extra": {
